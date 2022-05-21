@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<OutputPath>..\..\bin\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dzaba.CmdTemplate.Contracts\Dzaba.CmdTemplate.Contracts.csproj" />
+    <ProjectReference Include="..\Dzaba.CmdTemplate.Utils\Dzaba.CmdTemplate.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

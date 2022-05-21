@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dzaba.CmdTemplate.Cmd", "Src\Dzaba.CmdTemplate.Cmd\Dzaba.CmdTemplate.Cmd.csproj", "{C2C6258A-E021-4E97-B56F-88013D27C5FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzaba.CmdTemplate.Utils", "Src\Dzaba.CmdTemplate.Utils\Dzaba.CmdTemplate.Utils.csproj", "{9C686AB8-E1D3-470E-AC5B-029F468C105F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzaba.CmdTemplate.Contracts", "Src\Dzaba.CmdTemplate.Contracts\Dzaba.CmdTemplate.Contracts.csproj", "{F47A973B-A7C6-4E47-BCF2-8D8AB1B802AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzaba.CmdTemplate.Engine", "Src\Dzaba.CmdTemplate.Engine\Dzaba.CmdTemplate.Engine.csproj", "{367824E0-6BE0-4E38-9AB9-40610351614B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzaba.CmdTemplate.Configuration", "Src\Dzaba.CmdTemplate.Configuration\Dzaba.CmdTemplate.Configuration.csproj", "{DC739C70-D96A-42DA-8B4D-29B57294AFE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzaba.CmdTemplate.Configuration.Json", "Src\Dzaba.CmdTemplate.Configuration.Json\Dzaba.CmdTemplate.Configuration.Json.csproj", "{239D3796-CB02-4F63-AE82-FA5F78EF1DFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2C6258A-E021-4E97-B56F-88013D27C5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C6258A-E021-4E97-B56F-88013D27C5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C6258A-E021-4E97-B56F-88013D27C5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C6258A-E021-4E97-B56F-88013D27C5FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C686AB8-E1D3-470E-AC5B-029F468C105F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C686AB8-E1D3-470E-AC5B-029F468C105F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C686AB8-E1D3-470E-AC5B-029F468C105F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C686AB8-E1D3-470E-AC5B-029F468C105F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47A973B-A7C6-4E47-BCF2-8D8AB1B802AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47A973B-A7C6-4E47-BCF2-8D8AB1B802AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47A973B-A7C6-4E47-BCF2-8D8AB1B802AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47A973B-A7C6-4E47-BCF2-8D8AB1B802AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367824E0-6BE0-4E38-9AB9-40610351614B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367824E0-6BE0-4E38-9AB9-40610351614B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367824E0-6BE0-4E38-9AB9-40610351614B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367824E0-6BE0-4E38-9AB9-40610351614B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC739C70-D96A-42DA-8B4D-29B57294AFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC739C70-D96A-42DA-8B4D-29B57294AFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC739C70-D96A-42DA-8B4D-29B57294AFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC739C70-D96A-42DA-8B4D-29B57294AFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239D3796-CB02-4F63-AE82-FA5F78EF1DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239D3796-CB02-4F63-AE82-FA5F78EF1DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239D3796-CB02-4F63-AE82-FA5F78EF1DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239D3796-CB02-4F63-AE82-FA5F78EF1DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C88C269-BF87-4CEC-AC9E-9A2A883C361C}
+	EndGlobalSection
+EndGlobal
