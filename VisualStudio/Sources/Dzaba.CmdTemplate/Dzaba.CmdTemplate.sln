@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzaba.CmdTemplate.Utils.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzaba.CmdTemplate.Engine.Tests", "Src\Dzaba.CmdTemplate.Engine.Tests\Dzaba.CmdTemplate.Engine.Tests.csproj", "{430CEAE4-47C5-4353-AE81-2F9A078D1D2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzaba.CmdTemplate.Cmd.Tests", "Src\Dzaba.CmdTemplate.Cmd.Tests\Dzaba.CmdTemplate.Cmd.Tests.csproj", "{629FAA0B-04B7-4A8F-A078-C7CCE8C14589}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{430CEAE4-47C5-4353-AE81-2F9A078D1D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{430CEAE4-47C5-4353-AE81-2F9A078D1D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{430CEAE4-47C5-4353-AE81-2F9A078D1D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{629FAA0B-04B7-4A8F-A078-C7CCE8C14589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629FAA0B-04B7-4A8F-A078-C7CCE8C14589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629FAA0B-04B7-4A8F-A078-C7CCE8C14589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629FAA0B-04B7-4A8F-A078-C7CCE8C14589}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

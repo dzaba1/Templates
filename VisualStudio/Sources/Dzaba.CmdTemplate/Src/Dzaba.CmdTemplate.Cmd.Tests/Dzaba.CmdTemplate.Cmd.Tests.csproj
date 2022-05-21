@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputPath>..\..\bin\Tests\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dzaba.CmdTemplate.Cmd\Dzaba.CmdTemplate.Cmd.csproj" />
+    <ProjectReference Include="..\Dzaba.CmdTemplate.TestUtils\Dzaba.CmdTemplate.TestUtils.csproj" />
+  </ItemGroup>
+
+</Project>
