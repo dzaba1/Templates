@@ -1,5 +1,4 @@
-﻿using Dzaba.CmdTemplate.Configuration.Json;
-using Dzaba.CmdTemplate.Contracts;
+﻿using Dzaba.CmdTemplate.Contracts;
 using Dzaba.CmdTemplate.Engine;
 using Dzaba.CmdTemplate.Utils;
 using Microsoft.Extensions.DependencyInjection;
@@ -43,7 +42,7 @@ namespace Dzaba.CmdTemplate.Cmd
             var services = new ServiceCollection();
 
             RegisterLogging(services);
-            services.RegisterServics();
+            services.RegisterServices();
             services.RegisterDzabaTestUtils();
             services.RegisterDzabaTestEngine();
             services.RegisterDzabaTestConfigurationJson();

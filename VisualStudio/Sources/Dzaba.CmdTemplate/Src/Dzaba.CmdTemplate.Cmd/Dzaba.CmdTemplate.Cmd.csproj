@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dzaba.CmdTemplate.Configuration.Json\Dzaba.CmdTemplate.Configuration.Json.csproj" />
     <ProjectReference Include="..\Dzaba.CmdTemplate.Engine\Dzaba.CmdTemplate.Engine.csproj" />
   </ItemGroup>
 
@@ -23,6 +22,12 @@
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
       <_Parameter1>Dzaba.CmdTemplate.Cmd.Tests</_Parameter1>
     </AssemblyAttribute>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -9,7 +9,7 @@ namespace Dzaba.CmdTemplate.Cmd
 {
     internal static class Startup
     {
-        public static void RegisterServics(this IServiceCollection services)
+        public static void RegisterServices(this IServiceCollection services)
         {
             Require.NotNull(services, nameof(services));
 
